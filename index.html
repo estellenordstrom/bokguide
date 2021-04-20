@@ -6,27 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/grid.css">
-    <link href="" rel="stylesheet"> <!--texttyp-->
+<!--Texttyp-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap" rel="stylesheet">
 	</head>
 <!--Hemsidan-->
 		<body>
       <div class="container">
 
-    <header><h1 class="h1">Bokguide</h1></header>
+    <header><h1 class="h1">Bok guide</h1></header>
 <!--Meny-->
+<!-- gammal many
 <nav>
    <ul>
      <li>Hem </li>
-       <li>Skönlittratur</li>
+       <li> <a href="file:///Users/estellenordstrom/Documents/GitHub/bokguide/bokgenrer.html"></a>Skönlittratur</li>
          <li>Facklittratur</li>
            <li>Berömda Författare</li>
              <li>Bokgenrer </li>
    </ul>
- </nav>
+ </nav> -->
 
-<!--Bildtext-->
+ <nav class="nav">
+    <ul>
+        <li class="li">
+            <a href="#">Hem</a>
+
+        </li>
+        <li class="li">
+            <a href="#">Skönlittratur</a>
+            <ul>
+                <li class="li2"><a href="#">Deckare</a></li>
+                <li class="li2"><a href="#">Kärleksroman</a></li>
+                <li class="li2"><a href="#">Fantasy</a></li>
+                <li class="li2"><a href="#">Thriller</a></li>
+            </ul>
+        </li>
+
+            <li class="li">
+                <a href="#">Facklittratur</a>
+              </li>
+                    <li class="li">
+                        <a href="#">Berömda Författare</a>
+                      </li>
+                            <li class="li">
+                                <a href="#">Bokgenrer</a>
+                              </li>
+
+
+    </ul>
+</nav>
+
+
+
 <article>
 <h2 class="h2">En värld av böcker</h2>
 <p></p>
@@ -34,9 +69,45 @@
 </article>
 
 <!--Bildspel-->
-<section>
+<!-- Slideshow container -->
+<div class="slideshow-container">
 
-</section>
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="img/img1.jpg" style="width:100%" alt="">
+    <div class="text">Vaso Makri</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="img/img2.jpg" style="width:100%" alt="">
+    <div class="text">FreeCS</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="img/img3.jpg" style="width:100%" alt="">
+    <div class="text">Vicente</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="img/img4.jpg" style="width:100%" alt="">
+    <div class="text">Anna Patricia</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+
+<!--Text till bildspel-->
+<p class="bildtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt mi pretium orci vestibulum commodo. Pellentesque vitae dui semper, mattis metus vitae, feugiat nunc.Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sit amet lacus id sem finibus venenatis. Nam lacus nibh, laoreet efficitur ex in, molestie finibus diam. <br><br> Cras maximus dolor ac magna maximus, vel fringilla nisi rutrum. Praesent vehicula vel dolor id dapibus. <br><br> Nullam viverra massa sapien, nec ultricies nulla pulvinar in. Mauris convallis malesuada tempus.
+
+Vestibulum non tincidunt lorem. Nam ut eros ultricies, tempor urna ut, laoreet mauris. Integer eget auctor purus. Sed interdum et ex id pretium. Vivamus id dolor et nibh consequat vulputate eu non risus. Vestibulum sit amet lorem bibendum, convallis mauris eu, vehicula urna. Vivamus consectetur nulla nec dapibus ullamcorper. Pellentesque hendrerit vitae neque a facilisis. Curabitur congue varius ex, ac congue nisi pharetra sit amet.</p>
 
 <!--Länkar till de olika delarna av sidan-->
 <footer>

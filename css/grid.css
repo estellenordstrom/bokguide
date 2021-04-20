@@ -1,7 +1,7 @@
 .container {
   display:grid;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr 2fr 1fr;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 grid-gap: ;
 justify-content:;
 align-content: ;
@@ -13,7 +13,7 @@ grid-row: 1/2;
 }
 
 nav{
-  grid-column: 2/-1;
+  grid-column: 1/-1;
   grid-row: 2/3 ;
 
 }
@@ -24,14 +24,45 @@ article{
 
 }
 
-section{
-  grid-column:;
-  grid-row: ;
+
+.slideshow-container{
+  grid-column:3/5;
+  grid-row: 3/7 ;
+
+}
+
+.bildtext {
+  grid-column:3/5;
+grid-row: 6/9 ;
 
 }
 
 footer{
-  grid-column: ;
-  grid-row: ;
+  grid-column:1/-1 ;
+  grid-row:9/10 ;
 
+}
+
+.deckare {
+  grid-column: 1/4;
+grid-row: 3/5;
+
+}
+
+.kärleksroman {
+  grid-column:4/7;
+  grid-row: 3/5;
+
+}
+
+.fantasy {
+  grid-column:4/7;
+  grid-row: 6/8;
+
+
+}
+
+.thriller {
+  grid-column:1/4;
+  grid-row:6/8 ;
 }
