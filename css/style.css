@@ -2,45 +2,73 @@
 
 }
 
-.h2 {text-align: center; font-family: 'Cormorant', serif; font-size: 30px;
+.h2 {text-align: center; font-family: 'Cormorant', serif; font-size: 30px; color: #262626;
 
 }
 
-.deckare {background-color: blue;
+
+
+.li {font-family: 'Cormorant', serif; font-size: 23px;
 
 }
 
-.li {font-family: 'Cormorant', serif; font-size: 23px
+.li2 {font-family: 'Cormorant', serif; font-size: 18px;
 
 }
 
-.li2 {font-family: 'Cormorant', serif; font-size: 18px
+.lovenovel {
+
+
+}
+.imgvanster{
+  width: 45%;
 
 }
 
-.kärleksroman {background-color: red;
+
+
+.deckare {
+
 }
 
-.fantasy {background-color: black;
+.imghoger{
+width:45%;
+}
+
+.fantasy {
 
 }
 
-.thriller {background-color: pink;
+.imgvanster2{
+  width:45%;
+}
 
+.thriller {
+
+}
+
+.imghoger2 {
+  width:45%;
 }
 
 footer{background-color: #cccccc;
 
 }
 
-body {background: #ffece5;}
+body {background-color: #ffe6e6;
 
-.bildtext {float: right;
+background-image:  radial-gradient(#ffffff 1px, transparent 1px), radial-gradient(#ffffff 1px, #ffe6e6 1px);
+background-size: 40px 40px;
+background-position: 0 0,20px 20px;}
+
+.bildtext {font-family: 'Cormorant', serif; font-size: 18px;
 
 }
 
 
-/*Test bildspel*/
+
+
+/*Test bildspel - referera: */
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -136,7 +164,7 @@ body {background: #ffece5;}
   to {opacity: 1}
 }
 
-/*Meny*/
+/*Meny - referera: */
 
 .nav ul {
     *zoom:1;

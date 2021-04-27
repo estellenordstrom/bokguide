@@ -49,20 +49,52 @@ grid-row: 3/5;
 
 }
 
-.kärleksroman {
+.imghoger{grid-column: 1/4;
+grid-row: 3/4;
+
+
+}
+
+.lovenovel {
   grid-column:4/7;
   grid-row: 3/5;
 
 }
 
+.imgvanster{
+  grid-column:4/7;
+  grid-row: 3/5;
+}
+
 .fantasy {
   grid-column:4/7;
   grid-row: 6/8;
-
-
 }
+
+.imgvanster2{
+  grid-column:4/7;
+  grid-row: 6/8;
+}
+
 
 .thriller {
   grid-column:1/4;
   grid-row:6/8 ;
+}
+
+.imghoger2 {
+  grid-column:1/4;
+  grid-row:6/8 ;
+}
+
+.link {
+  grid-column:3/5;
+  grid-row:9/10 ;
+  justify-self: center;
+}
+
+.h{grid-column: 1/-1;
+grid-row: 3/3 ;
+
+
 }

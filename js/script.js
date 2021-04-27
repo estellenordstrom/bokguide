@@ -1,3 +1,5 @@
+//Till bildspel - Referat:
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
