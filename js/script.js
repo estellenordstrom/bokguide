@@ -1,4 +1,4 @@
-//Till bildspel - Referat:
+//Till bildspel:
 
 var slideIndex = 1;
 showSlides(slideIndex);

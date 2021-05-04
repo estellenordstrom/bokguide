@@ -1,55 +1,78 @@
-.h1 {text-align: center; font-size: 65px; font-family: 'Dancing Script', cursive;
+.h1 {text-align: center;
+  font-size: 65px;
+  font-family: 'Dancing Script', cursive;
 
 }
 
-.h2 {text-align: center; font-family: 'Cormorant', serif; font-size: 30px; color: #262626;
+.h2 {text-align: center;
+  font-family: 'Cormorant', serif;
+  font-size: 30px;
+  color: #262626;
 
 }
 
-
-
-.li {font-family: 'Cormorant', serif; font-size: 23px;
-
-}
-
-.li2 {font-family: 'Cormorant', serif; font-size: 18px;
+.h {text-align: center;
+  font-family: 'Cormorant', serif;
+  font-size: 30px;
+  color: #262626;
 
 }
 
-.lovenovel {
+.li {font-family: 'Cormorant', serif;
+font-size: 23px;
+
+}
+
+.li2 {font-family: 'Cormorant', serif;
+font-size: 18px;
+
+}
+
+.link {font-family: 'Cormorant', serif; font-size: 18px; color: #262626; font-style: oblique; font-weight: bolder;
+
+}
+
+.adress {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.lovenovel {font-family: 'Cormorant', serif; color: #33001a;
 
 
 }
 .imgvanster{
-  width: 45%;
+  width: 100%;
 
 }
 
 
 
-.deckare {
+.deckare {font-family: 'Cormorant', serif; color: #33001a;
+
 
 }
 
 .imghoger{
-width:45%;
+width:100%;
 }
 
-.fantasy {
+.fantasy {font-family: 'Cormorant', serif; color: #33001a;
 
 }
 
 .imgvanster2{
-  width:45%;
+  width:100%;
 }
 
-.thriller {
+.thriller {font-family: 'Cormorant', serif; color: #33001a;
+
 
 }
 
 .imghoger2 {
-  width:45%;
+  width:100%;
 }
+
 
 footer{background-color: #cccccc;
 
@@ -65,10 +88,17 @@ background-position: 0 0,20px 20px;}
 
 }
 
+/*Responsiv sida*/
+@media only screen and (max-width: 450px){
+  .li a{
+    display: block;
+  }
+
+}
 
 
 
-/*Test bildspel - referera: */
+/*Test bildspel*/
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -164,7 +194,7 @@ background-position: 0 0,20px 20px;}
   to {opacity: 1}
 }
 
-/*Meny - referera: */
+/*Meny*/
 
 .nav ul {
     *zoom:1;
@@ -237,12 +267,7 @@ background-position: 0 0,20px 20px;}
     filter:alpha(opacity=100);
 }
 
-.nav li ul {
-    position:absolute;
-    left:0;
-    top:36px;
-    z-index:1;
-}
+
 .nav li ul li {
     overflow:hidden;
     height:0;
