@@ -32,7 +32,15 @@ font-size: 18px;
 
 }
 
+.link1 {font-family: 'Cormorant', serif; font-size: 18px; color: #262626; font-style: oblique; font-weight: bolder;
+
+}
+
 .adress {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.adress1 {
   font-family: 'Abril Fatface', cursive;
 }
 
@@ -88,11 +96,14 @@ background-position: 0 0,20px 20px;}
 
 }
 
+
+
 /*Responsiv sida*/
 @media only screen and (max-width: 450px){
   .li a{
     display: block;
   }
+
 
 }
 
