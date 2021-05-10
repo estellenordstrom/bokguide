@@ -5,6 +5,7 @@ grid-auto-rows: minmax(10px, auto);
 
 }
 
+/*Till båda filerna*/
 header{
 grid-column: 1/-1;
 grid-row: 1/2;
@@ -22,7 +23,7 @@ article{
 
 }
 
-
+/*Grid till index.html*/
 .slideshow-container{
   grid-column:2/6;
   grid-row: 5/7 ;
@@ -35,7 +36,26 @@ grid-row: 7/9 ;
 
 }
 
+.link1 {
+  grid-column:1/-1 ;
+grid-row:35/45 ;
+justify-self: center;
+}
 
+.adress1 {
+  grid-column:1/-1 ;
+grid-row:35/45 ;
+justify-self: center;
+}
+
+.footer1 {
+  grid-column:1/-1 ;
+grid-row:35/45 ;
+
+}
+
+
+/*Till filen bokgenrer.html*/
 .deckare {
   grid-column: 2/3;
 grid-row: 4/6;
@@ -43,6 +63,7 @@ justify-self: center;
 
 }
 
+/*Grid position till deckare*/
 .imghoger{grid-column: 1/1;
 grid-row: 4/6;
 
@@ -56,6 +77,7 @@ grid-row: 4/6;
 
 }
 
+/*Grid position till Karleksnovel*/
 .imgvanster{
   grid-column:4/4;
   grid-row: 4/6;
@@ -67,6 +89,7 @@ grid-row: 4/6;
   justify-self: center;
 }
 
+/*Grid position till fantasy*/
 .imgvanster2{
   grid-column:4/4;
   grid-row: 20/30;
@@ -79,11 +102,13 @@ grid-row: 4/6;
   justify-self: center;
 }
 
+/*Grid position till thriller*/
 .imghoger2 {
   grid-column:1/1;
   grid-row:20/30 ;
 }
 
+/*Link till startsida*/
 .link {
   grid-column:1/-1 ;
   grid-row:50/60 ;
@@ -105,17 +130,6 @@ grid-row:50/60 ;
 justify-self: center;
 }
 
-.link1 {
-  grid-column:1/-1 ;
-grid-row:35/45 ;
-justify-self: center;
-}
-
-.adress1 {
-  grid-column:1/-1 ;
-grid-row:35/45 ;
-justify-self: center;
-}
 
 .footer {
   grid-column:1/-1 ;
@@ -123,11 +137,6 @@ justify-self: center;
 
 }
 
-.footer1 {
-  grid-column:1/-1 ;
-grid-row:35/45 ;
-
-}
 
 @media only screen and (max-width: 450px){
   .container {
@@ -138,6 +147,7 @@ grid-row:35/45 ;
 
   }
 
+/*Till båda filerna*/
   header{
   grid-column: 1/-1;
   grid-row: 1/2;
@@ -155,7 +165,7 @@ grid-row:35/45 ;
 
   }
 
-
+/*Grid till index.html filen*/
   .slideshow-container{
     grid-column:1/-1;
     grid-row: 5/7 ;
@@ -168,11 +178,30 @@ grid-row:35/45 ;
 
   }
 
-  .footer{
-    grid-column:1/-1 ;
-    grid-row:80/90;
-
+  .numbertext{
+    grid-column:1/-1;
+    grid-row: 5/7 ;
   }
+
+  .link1 {
+    grid-column:1/-1 ;
+  grid-row:14/24 ;
+  justify-self: center;
+  }
+
+  .adress1 {
+    grid-column:1/-1 ;
+  grid-row:14/24;
+  justify-self: center;
+  }
+
+  .footer1 {
+    grid-column:1/-1 ;
+  grid-row:14/24;
+  }
+
+
+  /*Gridsystem till filen bokgenrer.html*/
 
   .deckare {
     grid-column:1/-1;
@@ -242,21 +271,11 @@ grid-row:35/45 ;
    justify-self: center;
    }
 
-   .link1 {
+   .footer{
      grid-column:1/-1 ;
-   grid-row:14/24 ;
-   justify-self: center;
+     grid-row:80/90;
+
    }
 
-   .adress1 {
-     grid-column:1/-1 ;
-   grid-row:14/24;
-   justify-self: center;
-   }
-
-   .footer1 {
-     grid-column:1/-1 ;
-   grid-row:14/24;
-   }
 
 }
