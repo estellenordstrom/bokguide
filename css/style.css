@@ -86,6 +86,7 @@ footer{background-color: #cccccc;
 
 }
 
+/*Prickig backgrund*/
 body {background-color: #ffe6e6;
 
 background-image:  radial-gradient(#ffffff 1px, transparent 1px), radial-gradient(#ffffff 1px, #ffe6e6 1px);
@@ -108,7 +109,7 @@ background-position: 0 0,20px 20px;}
 
 
 
-/*Test bildspel*/
+/*bildspel*/
 * {box-sizing:border-box}
 
 /* Slideshow container */
