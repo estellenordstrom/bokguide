@@ -38,7 +38,7 @@ grid-row: 7/9 ;
 
 .link1 {
   grid-column:1/-1 ;
-grid-row:35/45 ;
+grid-row:34/45 ;
 justify-self: center;
 }
 
@@ -50,7 +50,7 @@ justify-self: center;
 
 .footer1 {
   grid-column:1/-1 ;
-grid-row:35/45 ;
+grid-row:34/45 ;
 
 }
 
@@ -111,7 +111,7 @@ grid-row: 4/6;
 /*Link till startsida*/
 .link {
   grid-column:1/-1 ;
-  grid-row:50/60 ;
+  grid-row:49/60 ;
   justify-self: center;
 }
 
@@ -133,7 +133,7 @@ justify-self: center;
 
 .footer {
   grid-column:1/-1 ;
-  grid-row:50/60 ;
+  grid-row:49/60 ;
 
 }
 
@@ -185,7 +185,7 @@ justify-self: center;
 
   .link1 {
     grid-column:1/-1 ;
-  grid-row:14/24 ;
+  grid-row:13/24 ;
   justify-self: center;
   }
 
@@ -197,7 +197,7 @@ justify-self: center;
 
   .footer1 {
     grid-column:1/-1 ;
-  grid-row:14/24;
+  grid-row:13/24;
   }
 
 
@@ -254,7 +254,7 @@ justify-self: center;
 
   .link {
     grid-column:1/-1 ;
-    grid-row:80/90;
+    grid-row:79/90;
     justify-self: center;
   }
 
@@ -273,7 +273,7 @@ justify-self: center;
 
    .footer{
      grid-column:1/-1 ;
-     grid-row:80/90;
+     grid-row:79/90;
 
    }
 
