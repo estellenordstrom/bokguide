@@ -1,9 +1,14 @@
+
+/*Styling till olika texter*/
+
+/*Styla rubriken*/
 .h1 {text-align: center;
   font-size: 65px;
   font-family: 'Dancing Script', cursive;
 
 }
 
+/*Style till underrubrik*/
 .h2 {text-align: center;
   font-family: 'Cormorant', serif;
   font-size: 30px;
@@ -11,6 +16,7 @@
 
 }
 
+/*styling till underrubrik i filen bokgenrer.html*/
 .h {text-align: center;
   font-family: 'Cormorant', serif;
   font-size: 30px;
@@ -18,6 +24,7 @@
 
 }
 
+/*Styling på texten i menyn i fil index.html och bokgenrer.html*/
 .li {font-family: 'Cormorant', serif;
 font-size: 23px;
 
@@ -28,6 +35,7 @@ font-size: 18px;
 
 }
 
+/*Styling till links i footern*/
 .link {font-family: 'Cormorant', serif; font-size: 18px; color: #262626; font-style: oblique; font-weight: bolder;
 
 }
@@ -36,6 +44,7 @@ font-size: 18px;
 
 }
 
+/*Styling på kontaktinformatioen i footern*/
 .adress {
   font-family: 'Abril Fatface', cursive;
 }
@@ -44,6 +53,7 @@ font-size: 18px;
   font-family: 'Abril Fatface', cursive;
 }
 
+/*Styling till bilderna och text till bilden i fil bokgenrer.html*/
 .lovenovel {font-family: 'Cormorant', serif; color: #33001a;
 
 
@@ -86,7 +96,8 @@ footer{background-color: #cccccc;
 
 }
 
-/*Prickig backgrund*/
+
+/*Kod till prickig bakgrund*/
 body {background-color: #ffe6e6;
 
 background-image:  radial-gradient(#ffffff 1px, transparent 1px), radial-gradient(#ffffff 1px, #ffe6e6 1px);
@@ -99,7 +110,7 @@ background-position: 0 0,20px 20px;}
 
 
 
-/*Responsiv sida*/
+/*För att göra sidan responsiv sida*/
 @media only screen and (max-width: 450px){
   .li a{
     display: block;
@@ -207,6 +218,8 @@ background-position: 0 0,20px 20px;}
 
 /*Styling till menyn*/
 
+
+/*Basic styling till menyn*/
 .nav ul {
     *zoom:1;
     list-style:none;
@@ -214,17 +227,21 @@ background-position: 0 0,20px 20px;}
     padding:0;
     background:#333;
 }
+
 .nav ul:before,.nav ul:after {
     content:"";
     display:table;
 }
+
 .nav ul:after {
     clear:both;
 }
+
 .nav ul > li {
     float:left;
     position:relative;
 }
+
 .nav a {
     display:block;
     padding:10px 20px;
@@ -232,33 +249,30 @@ background-position: 0 0,20px 20px;}
     color:#fff;
     border-left:1px solid #595959;
 }
+
 .nav a:hover {
     text-decoration:none;
     background:#595959;
 }
+
 .nav li ul {
     background:#cccccc;
 }
+
 .nav li ul li {
     width:200px;
 }
+
 .nav li ul a {
     border:none;
 }
+
 .nav li ul a:hover {
     background:rgba(0,0,0,0.2);
 }
 
-.nav li ul {
-    position:absolute;
-    left:-9999em;
-    top:36px;
-    z-index:1;
-}
-.nav ul > li:hover ul {
-    left:0;
-}
 
+/*Att under menyn ska tona in och ut*/
 .nav li ul {
     position:absolute;
     left:0;
@@ -272,12 +286,20 @@ background-position: 0 0,20px 20px;}
     -o-transition:200ms ease;
     transition:200ms ease;
 }
+
 .nav ul > li:hover ul {
     visibility:visible;
     opacity:1;
     filter:alpha(opacity=100);
 }
 
+
+/*För att menyns nedrullning ska tyckas ha en expandernade effekt*/
+.nav li ul {
+    position:absolute;
+    left:0;
+    top:36px;
+    z-index:1;}
 
 .nav li ul li {
     overflow:hidden;
@@ -287,10 +309,13 @@ background-position: 0 0,20px 20px;}
     -o-transition:height 200ms ease-in;
     transition:height 200ms ease-in;
 }
+
 .nav ul > li:hover ul li {
-    height:36px;
+    height:40px;
 }
 
+
+/*Ger menyn en djupare effekt*/
 .nav li ul {
     position:absolute;
     left:0;
@@ -305,6 +330,7 @@ background-position: 0 0,20px 20px;}
     -o-transition:350ms;
     transition:350ms;
 }
+
 .nav ul > li:hover ul {
     max-height:1000px;
     -webkit-transform:perspective(400) rotate3d(0,0,0,0);
